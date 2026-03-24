@@ -2,24 +2,30 @@
 
 ## Descrição
 
-Este projeto consiste na configuração inicial de um sistema desenvolvido em C++ para o gerenciamento de itinerários de transporte coletivo.
+Este projeto tem como objetivo iniciar o desenvolvimento de um sistema em C++ para gerenciamento de itinerários de transporte coletivo.
 
-A proposta estabelece uma base estruturada para futuras implementações, utilizando boas práticas de organização de código, com separação entre arquivos de código-fonte, cabeçalhos e testes.
+A proposta surgiu a partir de um problema identificado em uma empresa de transporte municipal, onde passageiros relataram falhas no cumprimento das rotas, como ônibus que não paravam corretamente nos pontos, pulavam paradas ou seguiam a ordem incorreta.
 
-O sistema será posteriormente utilizado para manipular uma lista de paradas de ônibus, com foco na utilização de estruturas de dados como listas encadeadas.
+Como solução, será desenvolvido um sistema para auxiliar motoristas e supervisores de rota, permitindo o controle e organização das paradas por meio de uma lista encadeada.
+
+Nesta etapa, o foco é apenas a configuração inicial do projeto (setup), preparando a estrutura necessária para a futura implementação das funcionalidades.
+
+---
 
 ## Requisitos
 
 Para compilar e executar o projeto, é necessário:
 
-* Compilador GCC versão 9.0 ou superior
-* Sistema operacional: Windows, Linux ou macOS
-* IDE recomendada: Visual Studio Code
+- Compilador GCC versão 9.0 ou superior  
+- Sistema operacional: Windows, Linux ou macOS  
+- IDE recomendada: Visual Studio Code  
 
 ### Configuração no VSCode
 
-* Instalar a extensão C/C++ (Microsoft)
-* Instalar a extensão Code Runner (opcional)
+- Instalar a extensão C/C++ (Microsoft)  
+- Instalar a extensão Code Runner (opcional)  
+
+---
 
 ## Compilação e Execução
 
@@ -39,6 +45,8 @@ Execução:
 
 No Windows, utilizar: `programa.exe`
 
+---
+
 ## Testes
 
 Os arquivos de teste devem ser adicionados na pasta `tests/`.
@@ -55,6 +63,8 @@ Execução dos testes:
 ./teste
 ```
 
+---
+
 ## Estrutura do Projeto
 
 ```
@@ -64,7 +74,3 @@ tests/     -> Arquivos de teste
 main.cpp   -> Arquivo principal  
 README.md  -> Documentação do projeto  
 ```
-
-## Observações
-
-Este repositório representa a etapa inicial (setup) do projeto, conforme especificado na atividade. As funcionalidades completas serão implementadas posteriormente.
