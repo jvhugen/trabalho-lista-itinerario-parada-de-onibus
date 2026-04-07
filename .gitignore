@@ -1,0 +1,11 @@
+/build
+/bin
+/Debug
+/Release
+*.o
+*.obj
+main
+tests.exe
+*.exe
+.vscode/
+*.code-workspace
